@@ -24,6 +24,7 @@
   "dependencies": {
     "@pnotify/core": "^5.2.0",
     "@pnotify/countdown": "^5.2.0",
+    "D": "^1.0.0",
     "debounce": "^1.2.1",
     "gh-pages": "^3.2.3",
     "lodash": "^4.17.21",

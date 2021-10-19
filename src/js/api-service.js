@@ -1,4 +1,5 @@
-const BASE_URL = 'https://restcountries.com/v2/name/${name}';
+const BASE_URL = 'https://restcountries.com/v2/all';
+// https://restcountries.com/v2/name/
 
 function fetchCountryByName(countrieName) {
   return fetch(`${BASE_URL}/name/${countrieName}`).then(response => {
