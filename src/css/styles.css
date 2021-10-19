@@ -1,0 +1,45 @@
+.country-name {
+  margin-right: auto;
+  margin-left: 100px;
+
+  font-weight: 700;
+  font-size: 34px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+}
+
+.thumb {
+  display: flex;
+  /* justify-content: space-around; */
+}
+
+.country-list {
+  margin-right: 100px;
+}
+
+.country-item {
+  margin-bottom: 20px;
+  list-style: none;
+
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+}
+
+.country-item-secondary {
+  font-weight: 400;
+}
+
+.languages-item {
+  margin-top: 10px;
+  margin-left: 30px;
+
+  font-size: 26px;
+  font-weight: 400;
+}
+
+.image-flag {
+  height: auto;
+  width: 50%;
+}

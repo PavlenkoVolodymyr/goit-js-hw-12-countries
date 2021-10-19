@@ -1,0 +1,34 @@
+<div class='country-body'>
+  <h2 class='country-name'>
+    {{0.name}}
+  </h2>
+  <div class='thumb'>
+    <ul class='country-list'>
+      <li class='country-item'>
+        Capital:
+        <span class='country-item-secondary'>
+          {{0.capital}}
+        </span>
+      </li>
+      <li class='country-item'>
+        Population:
+        <span class='country-item-secondary'>
+          {{0.population}}
+        </span>
+      </li>
+      <li class='country-item'>
+        Languages:
+        <ul class='languages-list'>
+          {{#each 0.languages}}
+            <li class='languages-item'>
+              {{name}}
+            </li>
+          {{/each}}
+        </ul>
+      </li>
+    </ul>
+    <div class='country-flag'>
+      <img class='image-flag' src="{{0.flag}}" alt="flag of {{0.name}}" />
+    </div>
+  </div>
+</div>
