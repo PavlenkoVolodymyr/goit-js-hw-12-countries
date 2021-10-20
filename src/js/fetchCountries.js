@@ -45,7 +45,6 @@ function renderCountryCard(countres) {
 }
 
 function onFetchError(error) {
-  // alert('Введены неправильные данные ');
   alert({
     text: 'Введены неправильные данные',
     delay: 1500,
