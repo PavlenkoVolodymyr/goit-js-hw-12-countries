@@ -1,10 +1,8 @@
-const BASE_URL = 'https://restcountries.com/v2/all';
-// https://restcountries.com/v2/name/
+const BASE_URL = 'https://restcountries.com/v2';
 
-function fetchCountryByName(countrieName) {
-  return fetch(`${BASE_URL}/name/${countrieName}`).then(response => {
-    return response.json();
-  });
+async function fetchCountryByName(countrieName) {
+  const response = await fetch(`${BASE_URL}/name/${countrieName}`);
+  return await response.json();
 }
 
 export default { fetchCountryByName };
