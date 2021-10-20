@@ -22,7 +22,6 @@
     "url": "https://github.com/PavlenkoVolodymyr/goit-js-hw-12-countries/issues"
   },
   "dependencies": {
-    "@pnotify/core": "^5.2.0",
     "@pnotify/countdown": "^5.2.0",
     "D": "^1.0.0",
     "debounce": "^1.2.1",
@@ -35,5 +34,8 @@
     "pnotify": "^5.2.0",
     "posthtml-include": "^1.7.2",
     "sass": "^1.43.2"
+  },
+  "devDependencies": {
+    "@pnotify/core": "^5.2.0"
   }
 }
